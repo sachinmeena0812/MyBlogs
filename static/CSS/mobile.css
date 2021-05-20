@@ -1,0 +1,136 @@
+    @media screen and (max-width: 1000px) {
+        .navigation {
+            flex-direction: column;
+            width: 100vw;
+        }
+        .content input,
+        textarea {
+            font-size: 63%;
+            padding: 2px;
+        }
+        .nav-right input {
+            font-size: 11px;
+            padding: 6px;
+            width: 46%;
+            border: 2px black solid;
+            border-radius: 10px;
+        }
+        .btn {
+            font-size: 88%;
+            padding: 1%;
+            border: 2px solid black;
+            border-radius: 10px;
+            margin: 0px 2px;
+        }
+        .container-right img {
+            height: 84%;
+            width: 142%;
+            margin-left: 100%;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+            flex-direction: column;
+        }
+        .content-left {
+            display: flex;
+            flex-direction: column;
+            width: 86%;
+            text-align: left;
+            font-family: var(--font2);
+            justify-content: center;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .container-left {
+            width: 84%;
+            font-size: 18px;
+        }
+        .content-right {
+            width: 88%;
+        }
+        .articles {
+            flex-direction: column;
+        }
+        .articles-left {
+            width: 71%;
+        }
+        .articles-right {
+            width: 71%;
+        }
+        .articles-left img {
+            height: 61%;
+            width: 108%;
+            margin: auto;
+        }
+        .content-right p a {
+            color: black;
+            font-family: var(--font1);
+            margin: 0px auto;
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 400px) {
+        .nav-left {
+            flex-direction: column;
+        }
+        #logo-myblog {
+            margin: auto;
+        }
+        .nav-left ul li a {
+            font-size: 82%;
+        }
+        .nav-right input {
+            font-size: 51%;
+            padding: 1px;
+        }
+        .btn {
+            font-size: 51%;
+        }
+        #logo-myblog {
+            font-size: 101%;
+        }
+        @media screen and (max-width: 600px) {
+            .navigation {
+                flex-direction: column;
+                width: 100vw;
+            }
+            .btn-submit {
+                font-size: 12%;
+                padding: 1%;
+                border: 2px solid black;
+                border-radius: 10px;
+                margin: 0px 2px;
+                width: 25%;
+            }
+            .content input,
+            textarea {
+                font-size: 63%;
+                padding: 2px;
+            }
+            .inlineelement p {
+                font-size: 82%;
+            }
+        }
+        @media screen and (max-width: 500px) {
+            .articles-right {
+                width: 88%;
+            }
+            .articles-left img {
+                height: 86%;
+                width: 111%;
+                margin: 8%;
+            }
+            .btn-submit {
+                font-size: 8px;
+                padding: 1px;
+                width: 50px;
+            }
+            .inlineelement p {
+                font-size: 20px;
+            }
+        }
+    }

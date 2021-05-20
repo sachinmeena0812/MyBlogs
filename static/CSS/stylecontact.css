@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Ubuntu:wght@300&display=swap');
+:root {
+    --font1: 'Baloo Bhai 2', cursive;
+    --font2: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navigation {
+    /* background-color: blue; */
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #264339;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-left ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: 20px;
+    font-family: var(--font2);
+    color: white;
+}
+
+.nav-left ul li a:hover {
+    color: rgb(187, 125, 125);
+    transition: ease-out 0.5s;
+}
+
+.nav-right input {
+    font-size: 16px;
+    padding: 6px;
+    width: 60%;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.content::before {
+    content: " ";
+    background-image: url('../images/contactbg.jpg');
+    width: 80%;
+    position: absolute;
+    height: 85vh;
+    width: 100vw;
+    opacity: 0.3;
+    z-index: -1;
+    margin-top: 0;
+}
+
+.form-box {
+    /* background-color: cornsilk; */
+    width: 60%;
+    height: 83.5vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.content input,
+textarea {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 7px;
+    width: 50%;
+    font-style: var(--font1);
+    border: 3px solid black;
+}
+
+.content textarea {
+    width: 75%;
+}
+
+.inlineelement {
+    display: flex;
+    margin: 15px;
+}
+
+.inlineelement p {
+    font-size: 30px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 45.6px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn-submit {
+    font-size: 103%;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 2px;
+    width: 65px;
+    align-self: center;
+    border: none;
+}

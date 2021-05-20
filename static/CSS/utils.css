@@ -1,0 +1,84 @@
+.max-width80{
+    width: 80%;
+    margin: auto;
+}
+.max-width60{
+    width: 60%;
+    margin: auto;
+}
+.margin-top-bottom{
+    margin: 10px auto;
+}
+
+#logo{
+    font-size: 25px;
+    margin: -5px 25px;
+    font-family: var(--font2);
+}
+.btn{
+    font-size: 16px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 2px;
+}
+.btn-submit{
+    font-size: 16px;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0px 2px;
+}
+
+.btn:hover{
+    background-color: rgb(187, 125, 125);
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    background-color: rgb(187, 125, 125);
+    transition: ease-out 0.5s;
+    cursor: pointer;
+}
+
+.sticky{
+    position: sticky;
+    top:0;
+    
+}
+
+.max-width-60vw{
+    width: 60vw;
+}
+.max-width-80vw{
+    width: 80vw;
+}
+
+
+
+.my-2{
+    margin-bottom:12px;
+    margin-top:12px;
+}
+
+.m-auto{
+    margin:auto;
+}
+#logo-myblog{
+    color: white;
+    font-family: var(--font2);
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 15px;
+}
+
+.content-right p a:hover{
+    color: #026d47;
+}
+
+.articles-right a:hover{
+    color: #026d47;
+}
+.articles-right h3 a{
+    color: black;
+}
