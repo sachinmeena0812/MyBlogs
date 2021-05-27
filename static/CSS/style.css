@@ -20,6 +20,14 @@
     padding: 15px;
 }
 
+#logo-myblog {
+    color: white;
+    font-family: var(--font2);
+    text-decoration: none;
+    font-size: 23px;
+    margin-right: 15px;
+}
+
 .nav-left {
     display: flex;
 }
@@ -104,6 +112,14 @@
 .content-right img {
     height: 60%;
     width: 79%;
+}
+
+#btn-more {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
 }
 
 .articles-right h3 a {
